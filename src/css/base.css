@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-inter
+}
+
+.card-body {
+  @apply bg-purple text-white text-center flex flex-col gap-4 p-6 items-center rounded-b-md;
+}
+
+.card-title {
+  @apply font-extrabold text-xl text-base;
+}
+
+.card-button {
+  @apply border rounded font-extrabold w-48 p-3 hover:bg-lightpurple text-[10px];
+}

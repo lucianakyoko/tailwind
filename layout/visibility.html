@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visibility</title>
+  <link rel="stylesheet" href="/dist/build.css">
+</head>
+
+<body>
+  <div class="container mx-auto">
+    <div class="grid grid-cols-3 gap-4">
+      <div class="border-2">01</div>
+      <div class="border-2 invisible">02</div>
+      <div class="border-2">03</div>
+    </div>
+
+    <table class="mt-10 w-1/2 text-center">
+      <thead>
+        <tr class="border-2">
+          <th>Linguagem</th>
+          <th>Nome</th>
+          <th>Horas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="border-2 visible">
+          <td>PHP</td>
+          <td>Básico</td>
+          <td>2 Horas</td>
+        </tr>
+        <tr class="border-2 collapse">
+          <td>CSS</td>
+          <td>Básico</td>
+          <td>3 Horas</td>
+        </tr>
+        <tr class="border-2">
+          <td>HTML</td>
+          <td>Básico</td>
+          <td>1 Horas</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>

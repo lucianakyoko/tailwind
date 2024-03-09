@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn_treinaweb {
+  @apply bg-green p-4 rounded hover:bg-blue; 
+}
+
+/* .btn_treinaweb:hover {
+  @apply bg-red;
+} */
